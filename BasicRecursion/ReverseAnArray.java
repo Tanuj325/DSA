@@ -1,6 +1,6 @@
 public class ReverseAnArray {
     static int[] reverseArray(int arr[], int left, int right) {
-        if (left > right) {
+        if (left >= right) {
             return arr;
         }
         int temp = arr[left];
