@@ -1,7 +1,7 @@
 public class PrintNameNTimes {
 
     static void printName(int i, int n) {
-        if(i > n){
+        if (i > n) {
             return;
         }
         System.out.println("Tanuj");
