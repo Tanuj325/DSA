@@ -3,12 +3,17 @@ public class BubbleSorting {
     static void bubbleSort(int[] a) {
         int n = a.length;
         for (int i = n - 1; i >= 1; i--) {
+            boolean didSwap = false;
             for (int j = 0; j <= i - 1; j++) {
                 if (a[j] > a[j + 1]) {
                     int temp = a[j];
                     a[j] = a[j + 1];
                     a[j + 1] = temp;
+                    didSwap=true;
                 }
+            }
+            if(!didSwap){
+                break;
             }
         }
     }
