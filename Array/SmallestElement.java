@@ -1,4 +1,4 @@
-public class Smallest {
+public class SmallestElement {
     public static void main(String[] args) {
         int[] arr = { 3, 5, 6, 4, 8, 7, 2, 1, 4, 5, 2 };
         int smallest = arr[0];
@@ -9,6 +9,6 @@ public class Smallest {
             }
         }
 
-        System.out.println("smallest Element is : " + smallest);
+        System.out.println("Smallest Element is : " + smallest);
     }
 }
