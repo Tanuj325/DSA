@@ -17,8 +17,10 @@ public class IntersectionOfTwoSortedArray {
                 intersection.add(a[i]);
                 i++;
                 j++;
-            } else {
+            } else if (a[i] < b[j]) {
                 i++;
+            } else if (a[i] > b[j]) {
+                j++;
             }
         }
 
