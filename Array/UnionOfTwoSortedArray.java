@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class UnionOfTwoArray {
+public class UnionOfTwoSortedArray {
     public static void main(String[] args) {
         int[] arr1 = { 1, 1, 2, 3, 4, 5 };
         int[] arr2 = { 2, 3, 4, 4, 5, 6 };
