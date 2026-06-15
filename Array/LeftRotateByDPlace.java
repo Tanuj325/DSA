@@ -16,22 +16,22 @@ public class LeftRotateByDPlace {
         d=d%n;
 
         //Brute Force Approach
-        int[] temp= new int[d];
-        for(int i = 0;i<d;i++){
-            temp[i] = arr[i]; 
-        }
-        for(int i=d ; i<n;i++){
-            arr[i-d] = arr[i];
-        }
-        for(int i = n-d ; i<n;i++){
-            arr[i]=temp[i-(n-d)];
-        }
+        // int[] temp= new int[d];
+        // for(int i = 0;i<d;i++){
+        //     temp[i] = arr[i]; 
+        // }
+        // for(int i=d ; i<n;i++){
+        //     arr[i-d] = arr[i];
+        // }
+        // for(int i = n-d ; i<n;i++){
+        //     arr[i]=temp[i-(n-d)];
+        // }
 
 
         //Optimal Approach
-        // reverse(arr,0,d-1);
-        // reverse(arr,d,n-1);
-        // reverse(arr, 0, n-1);
+        reverse(arr,0,d-1);
+        reverse(arr,d,n-1);
+        reverse(arr, 0, n-1);
 
 
         for(int i:arr){
