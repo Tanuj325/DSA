@@ -69,7 +69,7 @@ public class TwoSum {
     static int[] twoSum(int[] arr, int targetSum){
         HashMap<Integer,Integer> hash = new HashMap<>();
         int i = 0;
-        int n = arr.length - 1;
+        int n = arr.length;
         int[] result = { 0,0 };
         for(i =0;i<n;i++){
             if(hash.containsKey(targetSum-arr[i])){
