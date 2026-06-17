@@ -25,6 +25,7 @@ public class Sort0s1s2s {
     // }
     // }
 
+    //Optimal Approach
     static void sort012(int[] arr) {
         int low = 0;
         int mid = 0;
