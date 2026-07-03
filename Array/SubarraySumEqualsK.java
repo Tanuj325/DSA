@@ -14,7 +14,7 @@ public class SubarraySumEqualsK {
         int count = 0;
 
         // Base case: prefix sum 0 has occurred once
-        // prefixSumCount.put(0, 1);
+        prefixSumCount.put(0, 1);
 
         // Traverse through the array
         for (int i = 0; i < n; i++) {
